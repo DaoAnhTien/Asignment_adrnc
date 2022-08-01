@@ -1,0 +1,2 @@
+rootProject.name = "Asignment_adrnc"
+include ':app'

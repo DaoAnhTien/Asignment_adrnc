@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="60dp"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/course" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/textView4"
+            android:layout_width="50dp"
+            android:layout_height="23dp"
+            android:gravity="center"
+            android:text="KHÓA HOC"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="65dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/map" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/textView2"
+            android:layout_width="50dp"
+            android:layout_height="23dp"
+            android:gravity="center"
+            android:text="Map"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="65dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/news" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/textView3"
+            android:layout_width="50dp"
+            android:layout_height="23dp"
+            android:gravity="center"
+            android:text="Bản Tin"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="65dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/fb" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/textView"
+            android:layout_width="50dp"
+            android:layout_height="23dp"
+            android:gravity="center"
+            android:text="FACEBOOK"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
